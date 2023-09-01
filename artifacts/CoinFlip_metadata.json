@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_guess",
+						"type": "address"
+					}
+				],
+				"name": "changeOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ethernaut/TelephoneOwner.sol": "CoinFlip"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ethernaut/TelephoneOwner.sol": {
+			"keccak256": "0x5f53c2d79c84a77a1b94c2f4025a226668b5804c9abec6a351ed009fc66f47cb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5844de0e9b004ca7a63a13dc0df662aa0b5cd559f8fbdb7b19f8bd68cdb4949d",
+				"dweb:/ipfs/QmTAdR94GwJBFQD8HN2NxARcBCgssHGzgMMhhesA5AoBT4"
+			]
+		}
+	},
+	"version": 1
+}

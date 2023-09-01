@@ -1,0 +1,50 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "nonpayable",
+				"type": "fallback"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ethernaut/Denial.sol": "Codex"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ethernaut/Denial.sol": {
+			"keccak256": "0x9f91271d2215f2a2de90b58f4556863c9d1aa5a12addf862c012524be5440a21",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5bcd217e448d0133c5fd5a30f9218eb4d4e9d74bde5aca37d8af388adbb108ef",
+				"dweb:/ipfs/QmUNo3DAaz4nnyktC5G5N6oTo6PTpymxqp7ABKoTBJWiHJ"
+			]
+		}
+	},
+	"version": 1
+}

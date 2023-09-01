@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes16",
+						"name": "_key",
+						"type": "bytes16"
+					}
+				],
+				"name": "unlock",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ethernaut/Privacy.sol": "Privacy"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ethernaut/Privacy.sol": {
+			"keccak256": "0x280ff0f9b5d92ed4cc0b543524fbee44c7916b30a8c929ad2aa33bc818a5c5b4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://300d4f2e3aad0d78f77fcb20bfc5eb2050b64bec751b8329b5e2e07ee7cc6902",
+				"dweb:/ipfs/QmZqe8Bn7gEBHx3v7Yo51DZyHcGKWJ2G316ySmZd2i46na"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,393 @@
+{
+	"id": "ee0499e818c878be8370a00fd89d2b89",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.6.4",
+	"solcLongVersion": "0.6.4+commit.1dca32f3",
+	"input": {
+		"language": "Solidity",
+		"settings": {
+			"optimizer": {
+				"enabled": true,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		},
+		"sources": {
+			"ethernaut/Denial.sol": {
+				"content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.6.4;\n\ncontract Denial {\n  fallback() external payable  {\n      while(true) {\n      //Always executes until gas limit\n    }\n  }\n}"
+			}
+		}
+	},
+	"output": {
+		"contracts": {
+			"ethernaut/Denial.sol": {
+				"Denial": {
+					"abi": [
+						{
+							"stateMutability": "payable",
+							"type": "fallback"
+						}
+					],
+					"devdoc": {
+						"methods": {}
+					},
+					"evm": {
+						"assembly": "    /* \"ethernaut/Denial.sol\":57:179  contract Denial {... */\n  mstore(0x40, 0x80)\n  callvalue\n    /* \"--CODEGEN--\":5:14   */\n  dup1\n    /* \"--CODEGEN--\":2:4   */\n  iszero\n  tag_1\n  jumpi\n    /* \"--CODEGEN--\":27:28   */\n  0x00\n    /* \"--CODEGEN--\":24:25   */\n  dup1\n    /* \"--CODEGEN--\":17:29   */\n  revert\n    /* \"--CODEGEN--\":2:4   */\ntag_1:\n    /* \"ethernaut/Denial.sol\":57:179  contract Denial {... */\n  pop\n  dataSize(sub_0)\n  dup1\n  dataOffset(sub_0)\n  0x00\n  codecopy\n  0x00\n  return\nstop\n\nsub_0: assembly {\n        /* \"ethernaut/Denial.sol\":57:179  contract Denial {... */\n      mstore(0x40, 0x80)\n        /* \"ethernaut/Denial.sol\":114:173  while(true) {... */\n    tag_5:\n      jump(tag_5)\n\n    auxdata: 0xa2646970667358221220121509b293f30319a05538535200919838a4f13164197491fc126ff77b715b4564736f6c63430006040033\n}\n",
+						"bytecode": {
+							"linkReferences": {},
+							"object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe60806040525b600556fea2646970667358221220121509b293f30319a05538535200919838a4f13164197491fc126ff77b715b4564736f6c63430006040033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE JUMPDEST PUSH1 0x5 JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SLT ISZERO MULMOD 0xB2 SWAP4 RETURN SUB NOT LOG0 SSTORE CODESIZE MSTORE8 MSTORE STOP SWAP2 SWAP9 CODESIZE LOG4 CALL BALANCE PUSH5 0x197491FC12 PUSH16 0xF77B715B4564736F6C63430006040033 ",
+							"sourceMap": "57:122:0:-:0;;;;5:9:-1;2:2;;;27:1;24;17:12;2:2;57:122:0;;;;;;;"
+						},
+						"deployedBytecode": {
+							"linkReferences": {},
+							"object": "60806040525b600556fea2646970667358221220121509b293f30319a05538535200919838a4f13164197491fc126ff77b715b4564736f6c63430006040033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE JUMPDEST PUSH1 0x5 JUMP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SLT ISZERO MULMOD 0xB2 SWAP4 RETURN SUB NOT LOG0 SSTORE CODESIZE MSTORE8 MSTORE STOP SWAP2 SWAP9 CODESIZE LOG4 CALL BALANCE PUSH5 0x197491FC12 PUSH16 0xF77B715B4564736F6C63430006040033 ",
+							"sourceMap": "57:122:0:-:0;;;114:59;;"
+						},
+						"gasEstimates": {
+							"creation": {
+								"codeDepositCost": "12600",
+								"executionCost": "66",
+								"totalCost": "12666"
+							},
+							"external": {
+								"": "infinite"
+							}
+						},
+						"legacyAssembly": {
+							".code": [
+								{
+									"begin": 57,
+									"end": 179,
+									"name": "PUSH",
+									"source": 0,
+									"value": "80"
+								},
+								{
+									"begin": 57,
+									"end": 179,
+									"name": "PUSH",
+									"source": 0,
+									"value": "40"
+								},
+								{
+									"begin": 57,
+									"end": 179,
+									"name": "MSTORE",
+									"source": 0
+								},
+								{
+									"begin": 57,
+									"end": 179,
+									"name": "CALLVALUE",
+									"source": 0
+								},
+								{
+									"begin": 5,
+									"end": 14,
+									"name": "DUP1",
+									"source": -1
+								},
+								{
+									"begin": 2,
+									"end": 4,
+									"name": "ISZERO",
+									"source": -1
+								},
+								{
+									"begin": 2,
+									"end": 4,
+									"name": "PUSH [tag]",
+									"source": -1,
+									"value": "1"
+								},
+								{
+									"begin": 2,
+									"end": 4,
+									"name": "JUMPI",
+									"source": -1
+								},
+								{
+									"begin": 27,
+									"end": 28,
+									"name": "PUSH",
+									"source": -1,
+									"value": "0"
+								},
+								{
+									"begin": 24,
+									"end": 25,
+									"name": "DUP1",
+									"source": -1
+								},
+								{
+									"begin": 17,
+									"end": 29,
+									"name": "REVERT",
+									"source": -1
+								},
+								{
+									"begin": 2,
+									"end": 4,
+									"name": "tag",
+									"source": -1,
+									"value": "1"
+								},
+								{
+									"begin": 2,
+									"end": 4,
+									"name": "JUMPDEST",
+									"source": -1
+								},
+								{
+									"begin": 57,
+									"end": 179,
+									"name": "POP",
+									"source": 0
+								},
+								{
+									"begin": 57,
+									"end": 179,
+									"name": "PUSH #[$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 57,
+									"end": 179,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 57,
+									"end": 179,
+									"name": "PUSH [$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 57,
+									"end": 179,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 57,
+									"end": 179,
+									"name": "CODECOPY",
+									"source": 0
+								},
+								{
+									"begin": 57,
+									"end": 179,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 57,
+									"end": 179,
+									"name": "RETURN",
+									"source": 0
+								}
+							],
+							".data": {
+								"0": {
+									".auxdata": "a2646970667358221220121509b293f30319a05538535200919838a4f13164197491fc126ff77b715b4564736f6c63430006040033",
+									".code": [
+										{
+											"begin": 57,
+											"end": 179,
+											"name": "PUSH",
+											"source": 0,
+											"value": "80"
+										},
+										{
+											"begin": 57,
+											"end": 179,
+											"name": "PUSH",
+											"source": 0,
+											"value": "40"
+										},
+										{
+											"begin": 57,
+											"end": 179,
+											"name": "MSTORE",
+											"source": 0
+										},
+										{
+											"begin": 114,
+											"end": 173,
+											"name": "tag",
+											"source": 0,
+											"value": "5"
+										},
+										{
+											"begin": 114,
+											"end": 173,
+											"name": "JUMPDEST",
+											"source": 0
+										},
+										{
+											"begin": 114,
+											"end": 173,
+											"name": "PUSH [tag]",
+											"source": 0,
+											"value": "5"
+										},
+										{
+											"begin": 114,
+											"end": 173,
+											"name": "JUMP",
+											"source": 0
+										}
+									]
+								}
+							}
+						},
+						"methodIdentifiers": {}
+					},
+					"metadata": "{\"compiler\":{\"version\":\"0.6.4+commit.1dca32f3\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"stateMutability\":\"payable\",\"type\":\"fallback\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"ethernaut/Denial.sol\":\"Denial\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"ethernaut/Denial.sol\":{\"keccak256\":\"0x375c89b3f1fbf15c0da7c58be340245ed9727951fa4bed9f7750023b1e118b80\",\"urls\":[\"bzz-raw://3e0a2c6d7b8c0d39c8b695ab39d91c1b54dfeebbbeef0210597aee9724f236fd\",\"dweb:/ipfs/Qma87ZTYgVGbbsCfbgPwCxx63eJqY7FQFiuKuzLUw9Dec8\"]}},\"version\":1}",
+					"storageLayout": {
+						"storage": [],
+						"types": null
+					},
+					"userdoc": {
+						"methods": {}
+					}
+				}
+			}
+		},
+		"sources": {
+			"ethernaut/Denial.sol": {
+				"ast": {
+					"absolutePath": "ethernaut/Denial.sol",
+					"exportedSymbols": {
+						"Denial": [
+							9
+						]
+					},
+					"id": 10,
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.6",
+								".4"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "32:23:0"
+						},
+						{
+							"abstract": false,
+							"baseContracts": [],
+							"contractDependencies": [],
+							"contractKind": "contract",
+							"documentation": null,
+							"fullyImplemented": true,
+							"id": 9,
+							"linearizedBaseContracts": [
+								9
+							],
+							"name": "Denial",
+							"nodeType": "ContractDefinition",
+							"nodes": [
+								{
+									"body": {
+										"id": 7,
+										"nodeType": "Block",
+										"src": "106:71:0",
+										"statements": [
+											{
+												"body": {
+													"id": 5,
+													"nodeType": "Block",
+													"src": "126:47:0",
+													"statements": []
+												},
+												"condition": {
+													"argumentTypes": null,
+													"hexValue": "74727565",
+													"id": 4,
+													"isConstant": false,
+													"isLValue": false,
+													"isPure": true,
+													"kind": "bool",
+													"lValueRequested": false,
+													"nodeType": "Literal",
+													"src": "120:4:0",
+													"subdenomination": null,
+													"typeDescriptions": {
+														"typeIdentifier": "t_bool",
+														"typeString": "bool"
+													},
+													"value": "true"
+												},
+												"id": 6,
+												"nodeType": "WhileStatement",
+												"src": "114:59:0"
+											}
+										]
+									},
+									"documentation": null,
+									"id": 8,
+									"implemented": true,
+									"kind": "fallback",
+									"modifiers": [],
+									"name": "",
+									"nodeType": "FunctionDefinition",
+									"overrides": null,
+									"parameters": {
+										"id": 2,
+										"nodeType": "ParameterList",
+										"parameters": [],
+										"src": "85:2:0"
+									},
+									"returnParameters": {
+										"id": 3,
+										"nodeType": "ParameterList",
+										"parameters": [],
+										"src": "106:0:0"
+									},
+									"scope": 9,
+									"src": "77:100:0",
+									"stateMutability": "payable",
+									"virtual": false,
+									"visibility": "external"
+								}
+							],
+							"scope": 10,
+							"src": "57:122:0"
+						}
+					],
+					"src": "32:147:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

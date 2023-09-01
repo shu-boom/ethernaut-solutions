@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_gatekeeperOne",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes8",
+						"name": "_key",
+						"type": "bytes8"
+					}
+				],
+				"name": "invokeEnter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ethernaut/GateKeeperGasEstimation.sol": "GateKeeperGasEstimation"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ethernaut/GateKeeperGasEstimation.sol": {
+			"keccak256": "0x032095ec8c9acedbde98cb034ba87ee2e153bdb31f492d7f270869f6dd13a546",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://91f851526e03fb2fd623148a2671dd6445e431316f64b2eab0f7e4e27e962aad",
+				"dweb:/ipfs/QmUVzx5pDhG83k34tpdG3ELurqRtjzJoQUnxpE1TMdbmrK"
+			]
+		}
+	},
+	"version": 1
+}

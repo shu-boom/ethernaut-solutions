@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_destinationContract",
+						"type": "address"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "destinationContract",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "selfDestructAndTransfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ethernaut/SelfDestruct.sol": "SourceContract"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ethernaut/SelfDestruct.sol": {
+			"keccak256": "0x2c82467a8a8fdb80876096ca51e0ba048b2bcaac4c88ed71eb7b98d6129e5c46",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://05554345dec1add84cf73faefda13777e40034b3d744f75d25fc5fc11fba763d",
+				"dweb:/ipfs/Qmc3gKvHimmWpK8Kk7ADfCNdayDGYRJAaHNDVDLZStg5En"
+			]
+		}
+	},
+	"version": 1
+}

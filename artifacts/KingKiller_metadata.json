@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_kingContract",
+						"type": "address"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "takeTheThrone",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ethernaut/KingKiller.sol": "KingKiller"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ethernaut/KingKiller.sol": {
+			"keccak256": "0x009831b429824633acf07b5d95529ca56d8baecf0056ea2cd4d6d30bf7c0b685",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://77482423f65e117cd40282f3e3483059f37c5a1278d96f781c460b1dcf43896f",
+				"dweb:/ipfs/QmQKVA6oybaWSL8Frov1p33136PLJM666uQwFLrDpvhonY"
+			]
+		}
+	},
+	"version": 1
+}

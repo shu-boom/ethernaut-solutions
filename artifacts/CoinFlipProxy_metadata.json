@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newDelegateAddress",
+						"type": "address"
+					}
+				],
+				"name": "upgradeDelegate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ethernaut/CoinFlipProxy.sol": "CoinFlipProxy"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ethernaut/CoinFlipProxy.sol": {
+			"keccak256": "0xda34468da54bb049f547b9f7bd2e8413a8989d24a8aefe7c24d9bf9b6fb106e6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1a238be7a07e559087aaf3f377b9977aa163f2699c797973c0ae24bdba93fab5",
+				"dweb:/ipfs/QmVtmnPXJKkDGrksxeMYHtxEZEJRBkn8GgU89dPxC9esuU"
+			]
+		}
+	},
+	"version": 1
+}

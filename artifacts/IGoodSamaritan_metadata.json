@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "requestDonation",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "enoughBalance",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ethernaut/GateKeeper3.sol": "IGoodSamaritan"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ethernaut/GateKeeper3.sol": {
+			"keccak256": "0xc7be99d1e9ff0c4fc62c6c86f0d61617bf7bc72c2e55991190cde02046500b9e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://f03c0d256355d3114f548e68bdb934dc92faa73befbce10c7987758432269d94",
+				"dweb:/ipfs/QmS1gpzsJoxyBwSN73JNJxmvsuYgZfHxQ3tuhLgUNnDa86"
+			]
+		}
+	},
+	"version": 1
+}

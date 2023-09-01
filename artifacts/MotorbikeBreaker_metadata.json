@@ -1,0 +1,49 @@
+{
+	"compiler": {
+		"version": "0.6.7+commit.b8d736ae"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "pwn",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {},
+			"notice": "Get the contract from address from the implementation slot using the getStorageAt function  Get the address of the actual contract  call initialize on it to become the owner  and call upgradeTo method using this contrac"
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ethernaut/MotorbikeBreaker.sol": "MotorbikeBreaker"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ethernaut/MotorbikeBreaker.sol": {
+			"keccak256": "0xe363f28d3970cb907c572512f82143b785b9cc1b2cc45ea5e6d19a57fb5765f2",
+			"urls": [
+				"bzz-raw://0867c989415fae17e60f5ef2691e99dd2fdb35d799b309b74e20667e18a911f8",
+				"dweb:/ipfs/QmYzEkXtBM48mKHvH7vofP7Zy42jghvXAMYNjiuJqr6mrv"
+			]
+		}
+	},
+	"version": 1
+}

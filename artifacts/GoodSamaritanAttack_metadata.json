@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "NotEnoughBalance",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "notify",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ethernaut/GoodSamaritanAttack.sol": "GoodSamaritanAttack"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ethernaut/GoodSamaritanAttack.sol": {
+			"keccak256": "0xdaa4a5557ba1ff210b1e3545765d99d999d285027462f0366c4704be1810d153",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://53376a900a2d13a41a57cbeeda78359b641b915a26968458f245a83192848438",
+				"dweb:/ipfs/QmVTaqyKhBGRGBdVHULsSsZQos7rNCtsFBTbNpnsLox4AE"
+			]
+		}
+	},
+	"version": 1
+}
